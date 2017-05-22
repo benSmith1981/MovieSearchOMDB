@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Ben Smith on 30/01/17.
+
+*/
+"movietypes.movie" = "Film";
+"movietypes.series" = "Serie";
+"movietypes.episode" = "Houfdstuk";
+"movietypes.all" = "Alles";

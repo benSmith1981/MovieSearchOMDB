@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OMDBMovieAppMay2017.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BE339AE71E312192002F29A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE339AFB1E312193002F29A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE339B061E312193002F29A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEEC05E61ED370890050C6F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEEC05F41ED3708E0050C6F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

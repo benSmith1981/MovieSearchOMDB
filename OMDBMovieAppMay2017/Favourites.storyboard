@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favourites Table View-->
+        <scene sceneID="wvG-le-KJt">
+            <objects>
+                <tableViewController storyboardIdentifier="reuseCell" id="JMn-6j-Vqn" customClass="FavouritesTableView" customModule="UItableJSONSerialisation" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="134" sectionHeaderHeight="28" sectionFooterHeight="28" id="AZ3-xi-tWv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="JMn-6j-Vqn" id="69R-6Y-ulK"/>
+                            <outlet property="delegate" destination="JMn-6j-Vqn" id="zxB-yP-4RQ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="BQY-uS-hgh"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ON8-Oc-Vof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263.19999999999999" y="746.17691154422789"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QWS-lA-OaC">
+            <objects>
+                <navigationController storyboardIdentifier="UINavigationController-ee9-6Q-5kl" automaticallyAdjustsScrollViewInsets="NO" id="ee9-6Q-5kl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="bOd-Kf-ybG"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zIi-pr-c0h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JMn-6j-Vqn" kind="relationship" relationship="rootViewController" id="x0Q-l1-0p0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bu-gA-7YR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1202.4000000000001" y="746.17691154422789"/>
+        </scene>
+    </scenes>
+</document>

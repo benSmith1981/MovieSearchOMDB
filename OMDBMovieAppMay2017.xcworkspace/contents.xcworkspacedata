@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/funkymonkey1981/Documents/MovieSearchOMDB/OMDBMovieAppMay2017.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OMDBMovieAppMay2017.xcodeproj">
+   </FileRef>
+</Workspace>
