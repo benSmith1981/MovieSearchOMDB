@@ -9,6 +9,7 @@ target 'OMDBMovieAppMay2017' do
   pod 'MBProgressHUD', '~> 0.9'
   pod 'AGi18n', '~> 0.0'
   pod 'RealmSwift'
+  pod 'KeychainSwift', '~> 8.0'
 # Pods for OMDBMovieAppMay2017
 
   target 'OMDBMovieAppMay2017UITests' do

@@ -35,4 +35,10 @@ struct OMDBConstants {
     
     //search delay time
     static let SEARCH_DELAY_IN_MS: UInt64 = 500
+    
+    struct keyChainKeys {
+        static let apiKey = "apiKey"
+    }
 }
+
+

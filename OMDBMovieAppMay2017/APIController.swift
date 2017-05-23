@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import KeychainSwift
 
 enum SearchTerm {
     case byTitle(String)
@@ -69,7 +70,9 @@ class APIController {
         }
         
         //add on api key URLQueryItem
-        let apiKey = URLQueryItem(name: "apikey", value: "3b0c7c0c")
+        let keychain = KeychainSwift()
+        let key = keychain.get(OMDBConstants.keyChainKeys.apiKey)
+        let apiKey = URLQueryItem(name: "apikey", value: key)
         urlComponents.queryItems?.append(apiKey)
 
         //return full path

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		215633633D742DE169C09BCB /* Pods_OMDBMovieAppMay2017UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B4A2CF17422C1CDFEFBA08 /* Pods_OMDBMovieAppMay2017UITests.framework */; };
 		5B21B2013D66620B59C4108B /* Pods_OMDBMovieAppMay2017Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B61E38D7C715E21F4AAB53 /* Pods_OMDBMovieAppMay2017Tests.framework */; };
+		BE2E59441ED447E500975CAB /* SecretKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE2E59431ED447E500975CAB /* SecretKeys.plist */; };
 		BEEC05EA1ED370890050C6F8 /* OMDBMovieAppMay2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC05E91ED370890050C6F8 /* OMDBMovieAppMay2017UITests.swift */; };
 		BEEC05F81ED3708E0050C6F8 /* OMDBMovieAppMay2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC05F71ED3708E0050C6F8 /* OMDBMovieAppMay2017Tests.swift */; };
 		BEEC06391ED371AB0050C6F8 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC06011ED371AB0050C6F8 /* APIController.swift */; };
@@ -93,6 +94,7 @@
 		B3975FEFB8BE94124251C0F0 /* Pods_UItableJSONSerialisation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UItableJSONSerialisation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42B9467DD800E9F3C15D6E1 /* Pods-OMDBMovieAppMay2017UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBMovieAppMay2017UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMDBMovieAppMay2017UITests/Pods-OMDBMovieAppMay2017UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAA1577B671DB025D6C1D1F0 /* Pods_OMDBMovieAppMay2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDBMovieAppMay2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2E59431ED447E500975CAB /* SecretKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SecretKeys.plist; sourceTree = "<group>"; };
 		BE339AE81E312192002F29A2 /* OMDBMovieAppMay2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBMovieAppMay2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC05E71ED370890050C6F8 /* OMDBMovieAppMay2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDBMovieAppMay2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC05E91ED370890050C6F8 /* OMDBMovieAppMay2017UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBMovieAppMay2017UITests.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				BEEC06681ED371FF0050C6F8 /* DetailView */,
 				BEEC06671ED371D20050C6F8 /* DataLayer */,
 				BEEC06031ED371AB0050C6F8 /* AppDelegate.swift */,
+				BE2E59431ED447E500975CAB /* SecretKeys.plist */,
 				BEEC06041ED371AB0050C6F8 /* Assets.xcassets */,
 				BEEC06051ED371AB0050C6F8 /* LaunchScreen.storyboard */,
 				BEEC061E1ED371AB0050C6F8 /* Info.plist */,
@@ -508,6 +511,7 @@
 				BEEC065D1ED371AB0050C6F8 /* PlotCell.xib in Resources */,
 				BEEC06561ED371AB0050C6F8 /* MovieCell.xib in Resources */,
 				BEEC064F1ED371AB0050C6F8 /* Info.plist in Resources */,
+				BE2E59441ED447E500975CAB /* SecretKeys.plist in Resources */,
 				BEEC06511ED371AB0050C6F8 /* InfoCell.xib in Resources */,
 				BEEC063D1ED371AB0050C6F8 /* LaunchScreen.storyboard in Resources */,
 				BEEC064E1ED371AB0050C6F8 /* FullImageCell.xib in Resources */,

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import KeychainSwift
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        var keys: NSDictionary?
+
+        if let path = Bundle.main.path(forResource: "SecretKeys", ofType: "plist") {
+            keys = NSDictionary(contentsOfFile: path)
+        } else {
+            assertionFailure("You need the SecretKeys.plist file")
+        }
+        
+        if let dict = keys {
+            if let secretKey = dict["apiKeyOMDB"] as? String {
+                let keychain = KeychainSwift()
+                keychain.set(secretKey, forKey: OMDBConstants.keyChainKeys.apiKey)
+            }
+        }
+
         return true
     }
 

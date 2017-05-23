@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8FF0B00DCB0B373BCE26565A067C66BD2F623C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "789E184AE01DC162BDEA8787F6AF84B2420A7926" : 9223372036854775807,
+    "B8FF0B00DCB0B373BCE26565A067C66BD2F623C8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA7D673D-D95A-4B2A-9FCF-AA052BAABFF9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "789E184AE01DC162BDEA8787F6AF84B2420A7926" : "yona-app-ios\/",
+    "B8FF0B00DCB0B373BCE26565A067C66BD2F623C8" : "MovieSearchOMDB\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OMDBMovieAppMay2017",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OMDBMovieAppMay2017.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yonadev\/yona-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "789E184AE01DC162BDEA8787F6AF84B2420A7926"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benSmith1981\/MovieSearchOMDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8FF0B00DCB0B373BCE26565A067C66BD2F623C8"
+    }
+  ]
+}
