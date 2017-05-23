@@ -69,8 +69,8 @@ class APIController {
         }
         
         //add on api key URLQueryItem
-//        let apiKey = URLQueryItem(name: "apikey", value: "1d6a401a")
-//        urlComponents.queryItems?.append(apiKey)
+        let apiKey = URLQueryItem(name: "apikey", value: "3b0c7c0c")
+        urlComponents.queryItems?.append(apiKey)
 
         //return full path
         return urlComponents.url
